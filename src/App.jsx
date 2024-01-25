@@ -10,7 +10,7 @@ function App() {
     <> 
       <div className="main-container">
             <div className="search-container">
-                <input type="text" id="searchInput" placeholder="Input food or medicine name..."/>
+                <input type="text" id="searchInput" placeholder="Input search here. .."/>
             </div>
       </div>
 
