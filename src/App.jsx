@@ -1,20 +1,45 @@
-import React from "react";
-import Navbar from "./Navbar";
+import React, {useState} from "react";
 import './index.css';
-import data from "./db.json";
+import Header from "./Header";
+import Searchbar from "./Searchbar";
+import Data from "./db.json";
+
 
 function App() {
+
+  const [searchItem, setSearchItem] = useState("");
 
   return (
 
     <> 
-      <div className="main-container">
-            <div className="search-container">
-                <input type="text" id="searchInput" placeholder="Input search here. .."/>
-            </div>
-      </div>
+      <Header/>
+      
+      <Searchbar/>
 
-      <div className="item-container">
+      <div className="item-container">      
+      {
+        /*
+          Data.filter((value) => {
+              if(searchItem === ""){
+                return value;
+              }else if(value.title.toLowerCase().includes(searchItem.toLowerCase())){
+                return value;
+              }
+          })
+          
+          .map((value) => {
+            return(
+              <div className="items" key={value.id}>
+                <h1>{value.title}</h1>
+                <img src={value.image} alt=""  />   
+              </div>
+            )
+          })
+
+          */
+        }
+
+        
 
       </div>
     
