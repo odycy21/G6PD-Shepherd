@@ -5,15 +5,20 @@
 
 body{
     background-color: #9fc5e8;
-    margin: 0;
-    padding: 0;
     font-family: 'Vollkorn', serif;
 }
+
+.main-logo{
+    width: 220px;
+    height: 100%;
+    padding: 10px;
+}
+
 
 .main-container{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .search-container input{

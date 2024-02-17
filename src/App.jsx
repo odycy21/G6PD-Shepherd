@@ -1,50 +1,41 @@
-import React, {useState} from "react";
-import './index.css';
-import Header from "./Header";
-import Searchbar from "./Searchbar";
-import Data from "./db.json";
+import "./index.css";
+import Navbar from "./Navbar";
+import About from "./About";
+import Home from "./Home";
+import Footer from "./Footer";
+import {  Routes, Route, Outlet } from 'react-router-dom';
 
 
 function App() {
 
-  const [searchItem, setSearchItem] = useState("");
+  const Layout = () => {
+
+      return (
+        <div>
+            <Navbar/>
+            <Outlet/>
+            
+            <div></div>
+            <Footer/>
+        </div>
+    )
+  }
+
 
   return (
 
     <> 
-      <Header/>
-      
-      <Searchbar/>
+      <Routes>
+          <Route path='/' element={<Layout/>}>
+              <Route path='/' element={<Home/>} />
+              <Route path='/about' element={<About/>} />
+          </Route>
+      </Routes>
 
-      <div className="item-container">      
-      {
-        /*
-          Data.filter((value) => {
-              if(searchItem === ""){
-                return value;
-              }else if(value.title.toLowerCase().includes(searchItem.toLowerCase())){
-                return value;
-              }
-          })
-          
-          .map((value) => {
-            return(
-              <div className="items" key={value.id}>
-                <h1>{value.title}</h1>
-                <img src={value.image} alt=""  />   
-              </div>
-            )
-          })
-
-          */
-        }
-
-        
-
-      </div>
     
     </>
   )
 }
+
 
 export default App
