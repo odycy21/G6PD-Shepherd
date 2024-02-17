@@ -6,13 +6,11 @@ import Searchbar from './Searchbar';
 const Home = () => {
     
     return (
-    <div>
+        <div className="max-w-[1240px] h-screen mx-auto flex flex-col justify-center">
        
         
-         <div className=' mx-20 w-{100%} h-{100%} h-48 p-10'>
-               <h1 className='font-bold text-xl'> Search here</h1>
+         <div className='mt-[-500px]'>
                 <Searchbar/>
-
         </div>
      
      </div>    
