@@ -4,7 +4,7 @@ const About = () => {
         <div className="max-w-[1240px] mx-auto flex h-screen flex-col justify-center">
            
              <div className=''>
-                   <h1 className='font-bold text-xl py-2'> What Is G6PD Deficiency? </h1>
+                   <h1 className='font-montserrat font-semibold text-xl pb-2'> What Is G6PD Deficiency? </h1>
                     <p className="py-2">
                         G6PD deficiency is a genetic disorder that most often affects males. It happens when the body doesn't have enough of an enzyme called glucose-6-phosphate dehydrogenase (G6PD).
                         G6PD helps red blood cells work. It also protects them from substances in the blood that could harm them. In people with G6PD deficiency, either the red blood cells do not make enough G6PD or what they do make doesn't work as it should. <br /> 
@@ -15,7 +15,7 @@ const About = () => {
                     </p>
 
                     <div className="my-[20px]">
-                        <h2>Triggers of hemolysis in kids with G6PD deficiency include:</h2>
+                        <h2 className="font-montserrat font-semibold text-xl">Triggers of hemolysis in kids with G6PD deficiency include:</h2>
                     <ul className="list-disc p-5">
                         <li> illness, such as bacterial and viral infections</li>
                         <li> some painkillers and fever-lowering drugs</li>
