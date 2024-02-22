@@ -3,7 +3,7 @@ const About = () => {
     return (
         <div className="max-w-[1240px] mx-auto flex h-screen flex-col justify-center">
            
-             <div className=''>
+             <div >
                    <h1 className='font-montserrat font-semibold text-xl pb-2'> What Is G6PD Deficiency? </h1>
                     <p className="py-2">
                         G6PD deficiency is a genetic disorder that most often affects males. It happens when the body doesn't have enough of an enzyme called glucose-6-phosphate dehydrogenase (G6PD).
