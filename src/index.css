@@ -36,7 +36,7 @@ body{
 .search-container input{
     padding: 10px;
     border-radius: 15px;
-    width: 500px;
+    width: 400px;
     color: black;
     background-color: #9fc5e8;
     outline: 2px solid #0b0b0b;
@@ -71,7 +71,7 @@ input::placeholder {
 
 #search{
     position: absolute;
-    margin-left:450px;
+    margin-left:350px;
     margin-top: 9px;
 }
 
