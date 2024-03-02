@@ -4,9 +4,21 @@
 
 
 body{
-    background-color: #9fc5e8;
+    background-color: #FFFFFF;
     font-family: 'Vollkorn', serif;
 }
+
+
+.navbar{
+    background-color: #9fc5e8;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #8cb9e3;
+  }
 
 .main-logo{
     width: 220px;
@@ -25,9 +37,18 @@ body{
     padding: 10px;
     border-radius: 15px;
     width: 500px;
-    outline: 2px solid rgb(87, 87, 87);
+    color: black;
+    background-color: #9fc5e8;
+    outline: 2px solid #0b0b0b;
+
 }
 
+input::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1; /* Firefox */
+  }
+
+  /*
 .input-group{
     display: flex;
     align-items: center;
@@ -46,14 +67,20 @@ body{
     font-size: 1rem;
     color: black;
 }
-.input-group input::placeholder{
-    color: black;
-}
-.input-group input:focus{
-    outline: none;
-}
+*/
+
 #search{
     position: absolute;
     margin-left:450px;
     margin-top: 9px;
+}
+
+.footer{
+    background-color: #9fc5e8;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
+    padding: 30px 10px 20px 0;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #8cb9e3;
 }

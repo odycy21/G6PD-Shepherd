@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return ( 
     
-        <div className='flex justify-between items-center h-24 mx-auto px-4 '>
+        <div className='flex justify-between items-center h-24 mx-auto px-4 navbar'>
                <NavLink to="/">
                     <div className = {nav ? 'invisible' : 'w-full text-2xl text-[#FFFFFF]'}> <img className="main-logo" src={blackLogo} alt="Logo" /></div>
                 </NavLink>

@@ -14,8 +14,6 @@ function App() {
         <div>
             <Navbar/>
             <Outlet/>
-            
-            <div></div>
             <Footer/>
         </div>
     )
