@@ -1,9 +1,9 @@
 const About = () => {
     
     return (
-        <div className="max-w-[800px] mt-[-5px] py-10 w-full h-screen mx-auto flex flex-col justify-center items-center">
+        <div className="max-w-[800px] mt-[-5px] py-10   mx-auto flex flex-col justify-center items-center">
            
-             <div className="px-[20px] my-[100px]">
+             <div className="p-20 lg:py-5 px-10 py-10">
                    <h1 className='font-montserrat font-semibold text-xl pb-2'> What Is G6PD Deficiency? </h1>
                     <p className="py-2">
                         G6PD deficiency is a genetic disorder that most often affects males. It happens when the body doesn't have enough of an enzyme called glucose-6-phosphate dehydrogenase (G6PD).
@@ -23,6 +23,23 @@ const About = () => {
                         <li> some antimalarial drugs (most often those with "quine" in their names)</li>
                         <li> fava beans (also called broad beans)</li>
                         <li> naphthalene (a chemical found in mothballs and moth crystals). Mothballs can be very harmful if a child swallows one.</li>
+                    </ul>
+               
+                       
+                    
+                    </div>
+
+                    <div className="my-[20px]">
+                        <h2 className="font-montserrat font-semibold text-xl">What Are the Signs & Symptoms of G6PD Deficiency?</h2>
+                        <p className="py-2">Most people with G6PD deficiency don't have any symptoms. Others might have symptoms of hemolytic anemia if many RBCs are destroyed.</p>
+                        <p>These can include:</p>
+                    <ul className="list-disc p-5">
+                        <li> extreme tiredness or dizziness</li>
+                        <li> fast heartbeat</li>
+                        <li>fast breathing or shortness of breath</li>
+                        <li>jaundice (the skin and eyes look yellow)</li>
+                        <li> an enlarged spleen</li>
+                        <li>dark, tea-colored pee</li>
                     </ul>
                
                        
