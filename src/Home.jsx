@@ -16,7 +16,7 @@ const Home = () => {
                     G6PD helps red blood cells work. It also protects them from substances in the blood that could harm them. In people with G6PD deficiency, either the red blood cells do not make enough G6PD or what they do make doesn't work as it should. <NavLink to="/about" className="linkColor"> Learn more about G6PD.</NavLink>
                     <br /> <br />
                     
-                    You can type the name of foods or medicines below to check if it's safe or not for G6PD patients.
+                    Note: Type the name of food or medicine below to check if it's safe for G6PD patients.
                 </p>
 
                 <Searchbar/>
