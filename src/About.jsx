@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const About = () => {
     
     return (
-        <div className="max-w-[800px] mt-[-5px] py-10   mx-auto flex flex-col justify-center items-center">
+        <div className="max-w-[1000px] mt-[-5px] py-10   mx-auto flex flex-col justify-center items-center">
            
              <div className="p-20 lg:py-5 px-10 py-10">
                    <h1 className='font-montserrat font-semibold text-xl pb-2'> What Is G6PD Deficiency? </h1>

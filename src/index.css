@@ -11,13 +11,11 @@ body{
 
 .navbar{
     background-color: #9fc5e8;
-    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
     padding: 20px;
     display: flex;
     align-items: center;
     max-width: 100%;
     margin: 0 auto;
-    border-bottom: 1px solid #8cb9e3;
   }
 
 .main-logo{
@@ -30,7 +28,7 @@ body{
 .main-container{
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .search-container input{
@@ -39,12 +37,13 @@ body{
     width: 400px;
     color: black;
     background-color: #9fc5e8;
-    outline: 2px solid #0b0b0b;
+    outline: 2px solid#82a9ce;
+    font-size: 12px;
 
 }
 
 input::placeholder {
-    color: rgb(0, 0, 0);
+    color: #FFFFFF;
     opacity: 1; /* Firefox */
   }
 
@@ -83,4 +82,16 @@ input::placeholder {
     max-width: 100%;
     margin: 0 auto;
     border-bottom: 1px solid #8cb9e3;
+}
+
+.linkColor{
+    color: #9fc5e8;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.linkColor:hover{
+    color: #658db2;
+    font-weight: 600;
+
 }

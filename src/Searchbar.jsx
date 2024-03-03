@@ -12,7 +12,7 @@ const Searchbar = () => {
                 }}/>
             </div>
        
-            <HiSearch id="search" font-size = {20} color = "white" />
+            <HiSearch id="search" font-size = {20} color = "black" />
             
          </div>
      );
