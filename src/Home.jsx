@@ -14,8 +14,9 @@ const Home = () => {
                 <p>
                     G6PD deficiency is a genetic disorder that most often affects males. It happens when the body doesn't have enough of an enzyme called glucose-6-phosphate dehydrogenase (G6PD).
                     G6PD helps red blood cells work. It also protects them from substances in the blood that could harm them. In people with G6PD deficiency, either the red blood cells do not make enough G6PD or what they do make doesn't work as it should. <NavLink to="/about" className="linkColor"> Learn more about G6PD.</NavLink>
-                    <br />  <br />
-                    You can check the names of foods or medicines by typing below on search bar to know if its safe or not for G6PD patients.
+                    <br /> <br />
+                    
+                    You can type the name of foods or medicines below to check if it's safe or not for G6PD patients.
                 </p>
 
                 <Searchbar/>
