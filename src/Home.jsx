@@ -24,7 +24,7 @@ const Home = () => {
             </div>
 
 
-            <div className='flex justify-center py-5'>
+            <div className='flex justify-center py-5 max-w-[1000px]'>
                  <Content/>
             </div>
 
