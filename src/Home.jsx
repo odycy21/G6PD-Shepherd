@@ -2,6 +2,7 @@
 import { NavLink } from 'react-router-dom';
 import './index.css';
 import Searchbar from './Searchbar';
+import Content from './content';
 
 
 const Home = () => {
@@ -21,6 +22,12 @@ const Home = () => {
 
                 <Searchbar/>
             </div>
+
+
+            <div className='flex justify-center py-5'>
+                 <Content/>
+            </div>
+
 
         </div> 
      );
