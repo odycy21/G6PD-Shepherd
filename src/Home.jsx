@@ -20,15 +20,17 @@ const Home = () => {
                     <br /> <br />
                     
                     Note: Type the name of food or medicine below to check if it's safe for G6PD patients.
+
+                    <div className='flex justify-center'>
+                        <Searchbar/>
+                    </div>
+
+                    <div className='my-[50px] flex justify-center'>
+                        <MainContainer/>
+                    </div>
                 </p>
 
-                <div>
-                    <Searchbar/>
-                </div>
-
-                <div>
-                    <MainContainer/>
-                </div>
+               
             </div>
 
 
