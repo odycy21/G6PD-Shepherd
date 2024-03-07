@@ -21,12 +21,18 @@ const Home = () => {
                     Note: Type the name of food or medicine below to check if it's safe for G6PD patients.
                 </p>
 
-                <Searchbar/>
+                <div>
+                    <Searchbar/>
+                </div>
+
+                <div>
+                <Content/>
+                </div>
             </div>
 
 
 
-              <Content/>
+            
         
 
 
