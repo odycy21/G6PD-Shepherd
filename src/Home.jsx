@@ -2,7 +2,8 @@
 import { NavLink } from 'react-router-dom';
 import './index.css';
 import Searchbar from './Searchbar';
-import Content from './content';
+import MainContainer from './MainContainer';
+
 
 
 
@@ -26,7 +27,7 @@ const Home = () => {
                 </div>
 
                 <div>
-                <Content/>
+                    <MainContainer/>
                 </div>
             </div>
 

@@ -1,4 +1,4 @@
-const Content = () => {
+const MainContainer = () => {
     return (
         <div>
             <h2>Search contents will be shown </h2>
@@ -7,4 +7,4 @@ const Content = () => {
       );
 }
  
-export default Content;
+export default MainContainer;
