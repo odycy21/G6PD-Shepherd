@@ -5,6 +5,7 @@ import Searchbar from './Searchbar';
 import Content from './content';
 
 
+
 const Home = () => {
     
     return (
@@ -25,7 +26,7 @@ const Home = () => {
 
 
             <div className='flex justify-center py-5'>
-                 <Content/>
+              <Content/>
             </div>
 
 

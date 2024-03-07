@@ -1,11 +1,10 @@
 const Content = () => {
-
-
-    return ( 
-        
-       <h2>Search contents are shown here</h2>
-
-     );
+    return (
+        <div>
+            <h2>Search contents will be shown </h2>
+        </div>
+      
+      );
 }
  
 export default Content;
