@@ -39,10 +39,10 @@ const Navbar = () => {
                     <div className = {!nav ? 'invisible' : 'w-full'}> <img className="main-logo" src={whiteLogo} alt="Logo" /></div>
                 </NavLink>
                     <NavLink to="/">
-                        <li className="p-4">Home</li>
+                        <li className="p-4 border-b border-[#9fc5e8]">Home</li>
                     </NavLink>
                     <NavLink to="/about">
-                        <li className="p-4">About G6PD</li>
+                        <li className="p-4 border-b border-[#9fc5e8]">About G6PD</li>
                     </NavLink>
                 </ul>
             </div>
