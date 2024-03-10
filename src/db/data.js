@@ -49,6 +49,21 @@
         "id": 10,
         "name": "Aczone (dapsone)",
         "type": "Drug"
+    },
+    {
+        "id": 11,
+        "name": "Beta-Naphthol or 2-Naphthol: [e.g. Sudan dyes for coloring fabrics & Asian spices]",
+        "type": "Drug"
+    },
+    {
+        "id": 12,
+        "name": "Henna dyes for hair & tattoos",
+        "type": "Chemical"
+    },
+    {
+        "id": 13,
+        "name": "Peanuts",
+        "type": "Food"
     }
 ]
 

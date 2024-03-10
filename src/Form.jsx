@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { HiSearch } from "react-icons/hi";
 
 const Form = ({data}) => {
 
@@ -15,6 +16,8 @@ console.log(search)
                         setSearchItem(e.target.value)
                         }}/>
                     </div>
+
+                    <HiSearch id="search" font-size = {20} color = "black" />
         
                 </div>
                 
