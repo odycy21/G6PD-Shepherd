@@ -82,7 +82,10 @@ const About = () => {
                     </div>
 
                     <div className="my-[20px]">
-                        Source:  <NavLink className = "linkColor" to={"https://kidshealth.org/en/parents/g6pd.html#:~:text=G6PD%20deficiency%20is%20a%20genetic,blood%20that%20could%20harm%20them."}>https://kidshealth.org/</NavLink>
+                        <b>Our Sources: </b>  
+                        <NavLink className = "linkColor" to={"https://www.g6pd.org"}>https://www.g6pd.org</NavLink><span>, </span>
+                        <NavLink className = "linkColor" to={"https://kidshealth.org/en/parents/g6pd.html#:~:text=G6PD%20deficiency%20is%20a%20genetic,blood%20that%20could%20harm%20them"}>https://kidshealth.org</NavLink>
+                      
                     </div>
                     
             </div>
