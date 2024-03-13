@@ -20,10 +20,10 @@ const Navbar = () => {
                     <div className = {nav ? 'invisible' : 'w-full text-2xl text-[#FFFFFF]'}> <img className="main-logo" src={blackLogo} alt="Logo" /></div>
                 </NavLink>
             <ul className="hidden md:flex">
-                <NavLink to="/">
+                <NavLink to="/" style={({isActive}) => {return {color:isActive ? "#FFFFFF" : "#000000"}}}>
                     <li className="p-4">Home</li>
                 </NavLink>
-                <NavLink to="/about">
+                <NavLink to="/about" style={({isActive}) => {return {color:isActive ? "#FFFFFF" : "#000000"}}}>
                     <li className="p-4">About G6PD</li>
                 </NavLink>
             </ul>
@@ -38,10 +38,10 @@ const Navbar = () => {
                 <NavLink to="/">
                     <div className = {!nav ? 'invisible' : 'w-full'}> <img className="main-logo" src={whiteLogo} alt="Logo" /></div>
                 </NavLink>
-                    <NavLink to="/">
+                    <NavLink to="/" style={({isActive}) => {return {color:isActive ? "#9fc5e8" : "#FFFFFF"}}}>
                         <li className="p-4 border-b border-[#9fc5e8]">Home</li>
                     </NavLink>
-                    <NavLink to="/about">
+                    <NavLink to="/about" style={({isActive}) => {return {color:isActive ? "#9fc5e8" : "#FFFFFF"}}}>
                         <li className="p-4 border-b border-[#9fc5e8]">About G6PD</li>
                     </NavLink>
                 </ul>
