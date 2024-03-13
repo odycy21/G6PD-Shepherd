@@ -8,7 +8,7 @@ import {data} from './db/data.js';
 
 const Home = () => {
     return (
-        <div className="max-w-[1000px] py-20 mx-auto my-auto justify-center items-center">
+        <div className="max-w-[1000px] min-h-screen py-20 mx-auto my-auto justify-center items-center">
            
             <div className="p-20 lg:py-5 px-10 py-10">
                 <h1 className='font-montserrat font-semibold text-xl pb-2'> What is G6PD?</h1>
