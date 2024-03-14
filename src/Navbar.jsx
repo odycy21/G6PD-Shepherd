@@ -32,16 +32,16 @@ const Navbar = () => {
                 {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
             </div>
            
-            <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+            <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500 z-50' : 'fixed left-[-100%]'}>
         
                 <ul className="p-4 text-white">
                 <NavLink to="/">
                     <div className = {!nav ? 'invisible' : 'w-full'}> <img className="main-logo" src={whiteLogo} alt="Logo" /></div>
                 </NavLink>
-                    <NavLink to="/" style={({isActive}) => {return {color:isActive ? "#9fc5e8" : "#FFFFFF"}}}>
+                    <NavLink to="/" onClick={handleNav} style={({isActive}) => {return {color:isActive ? "#9fc5e8" : "#FFFFFF"}}}>
                         <li className="p-4 border-b border-[#9fc5e8]">Home</li>
                     </NavLink>
-                    <NavLink to="/about" style={({isActive}) => {return {color:isActive ? "#9fc5e8" : "#FFFFFF"}}}>
+                    <NavLink to="/about" onClick={handleNav} style={({isActive}) => {return {color:isActive ? "#9fc5e8" : "#FFFFFF"}}}>
                         <li className="p-4 border-b border-[#9fc5e8]">About G6PD</li>
                     </NavLink>
                 </ul>
