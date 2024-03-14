@@ -12,7 +12,7 @@ console.log(search)
                 <div className="searchContainer flex justify-center my-10">
                 
                     <div className="search">
-                        <input type="text" id="searchInput" placeholder="Input search here. .." onChange={(e) => {
+                        <input type="text" id="searchInput" placeholder="Type search here. .." onChange={(e) => {
                         setSearchItem(e.target.value)
                         }}/>
                     </div>
