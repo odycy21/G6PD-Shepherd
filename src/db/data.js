@@ -22,8 +22,8 @@
     }, 
     {
         "id": 5,
-        "name": "Red Meat",
-        "type": "Food"
+        "name": "Chloramphenicol (Antibiotic)",
+        "type": "Medicine"
     }, 
     {
         "id": 6,
