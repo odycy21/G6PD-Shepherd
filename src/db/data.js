@@ -64,6 +64,16 @@
         "id": 13,
         "name": "Peanuts",
         "type": "Food"
+    },
+    {
+        "id": 14,
+        "name": "Grapes",
+        "type": "Food"
+    },
+    {
+        "id": 15,
+        "name": "Bitter Gourd (Ampalaya)",
+        "type": "Food"
     }
 ]
 
