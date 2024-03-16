@@ -27,7 +27,7 @@
     }, 
     {
         "id": 6,
-        "name": "Naphthalene Balls",
+        "name": "Naphthalene (Mothballs)",
         "type": "Chemical"
     }, 
     {
