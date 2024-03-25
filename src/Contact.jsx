@@ -8,7 +8,7 @@ const ContactUs = () => {
         <div className="p-20 lg:py-5 px-10 py-10">
               <p className='font-montserrat font-semibold text-xl pb-2'> Do You have Questions or Suggestions? </p>
                <p className="py-2 text-center">
-                   Send an email here - bryanosal@gmail.com 
+                   Email us @ bryanosal@gmail.com 
                </p>
        </div>
     </div>   
