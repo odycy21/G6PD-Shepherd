@@ -26,6 +26,9 @@ const Navbar = () => {
                 <NavLink to="/about" style={({isActive}) => {return {color:isActive ? "#FFFFFF" : "#000000"}}}>
                     <li className="p-4">About G6PD</li>
                 </NavLink>
+                <NavLink to="/contact-us" style={({isActive}) => {return {color:isActive ? "#FFFFFF" : "#000000"}}}>
+                    <li className="p-4">Contact Us</li>
+                </NavLink>
             </ul>
 
             <div onClick={handleNav} className="block md:hidden cursor-pointer">
@@ -43,6 +46,9 @@ const Navbar = () => {
                     </NavLink>
                     <NavLink to="/about" onClick={handleNav} style={({isActive}) => {return {color:isActive ? "#9fc5e8" : "#FFFFFF"}}}>
                         <li className="p-4 border-b border-[#9fc5e8]">About G6PD</li>
+                    </NavLink>
+                    <NavLink to="/contact-us" onClick={handleNav} style={({isActive}) => {return {color:isActive ? "#9fc5e8" : "#FFFFFF"}}}>
+                        <li className="p-4 border-b border-[#9fc5e8]">Contact Us</li>
                     </NavLink>
                 </ul>
             </div>

@@ -16,7 +16,7 @@ console.log(option)
                 
                 <div className="searchContainer flex justify-center my-10">
                     <div className="search">
-                        <input type="text" id="searchInput" placeholder="Type search here. .." onChange={(e) => {
+                        <input type="text" id="searchInput" placeholder="Input search here . .." onChange={(e) => {
                         setSearchItem(e.target.value)
                         }}/>
                     </div>
@@ -25,10 +25,10 @@ console.log(option)
                 </div>
 
                 <div className="justify-center my-10 m-5">
-                        <select className="dropdown" onChange={(e) => {
+                        <select className="dropdown p-2" onChange={(e) => {
                         setOptionItem(e.target.value)
-                        }}>
-                            <option value="">Type</option>
+                        }} >
+                            <option value="">Select Type</option>
                             <option value="Food">Food</option>
                             <option value="Drug">Drug</option>
                             <option value="Medicine">Medicine</option>
