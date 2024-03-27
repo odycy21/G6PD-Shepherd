@@ -139,9 +139,7 @@ input::placeholder {
 
   @media (min-width: 320px) and (max-width: 480px) {
 
-    body{
-        background-color: red;
-    }
+   
 
   
     .search input{
@@ -181,9 +179,6 @@ input::placeholder {
 
     @media (min-width: 481px) and (max-width: 768px) {
 
-        body{
-            background-color: green;
-        }
 
         .search input{
             padding: 10px;
