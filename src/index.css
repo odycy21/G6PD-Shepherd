@@ -27,7 +27,7 @@ body{
 .search input{
     padding: 10px;
     border-radius: 15px;
-    width: 260px;
+    width: 300px;
     color: black;
     background-color: #9fc5e8;
     outline: 2px solid#82a9ce;
@@ -43,15 +43,15 @@ input::placeholder {
 
 #search{
     position: absolute;
-    margin-left:220px;
+    margin-left:250px;
     margin-top: 9px;
 }
 
 .dropdown{
-    width: 20%;
-    padding: 2px 2px;
+    width: 100%;
+    padding: 2px 5px;
     height: 100%;
-    margin: 0 auto;
+    margin-left: 15px;
     background-color: #9fc5e8;
     outline: 2px solid#82a9ce;
     border-radius: 5px;
@@ -93,3 +93,126 @@ input::placeholder {
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
   }
   
+
+/* -- Mobile Devices --*/
+
+  @media (max-width: 600px) {
+
+    body{
+        background-color: red;
+    }
+
+    .search input{
+        padding: 10px;
+        border-radius: 15px;
+        width: 250px;
+        color: black;
+        background-color: #9fc5e8;
+        outline: 2px solid#82a9ce;
+        font-size: 12px;
+        margin: 0 auto;
+    }
+    
+    #search{
+        position: absolute;
+        margin-left:220px;
+        margin-top: 9px;
+    }
+    
+    .dropdown{
+        width: 20%;
+        padding: 0 2px;
+        height: 100%;
+        margin: 0 auto;
+        background-color: #9fc5e8;
+        outline: 2px solid#82a9ce;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 12px;
+        color: #ffffff;
+    }
+
+  }
+
+
+  /* -- Mobile Devices --*/
+
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    body{
+        background-color: red;
+    }
+
+  
+    .search input{
+        padding: 10px;
+        border-radius: 15px;
+        width: 250px;
+        color: black;
+        background-color: #9fc5e8;
+        outline: 2px solid#82a9ce;
+        font-size: 12px;
+        margin: 0 auto;
+    }
+    
+    #search{
+        position: absolute;
+        margin-left:220px;
+        margin-top: 9px;
+    }
+    
+    .dropdown{
+        width: 20%;
+        padding: 0 2px;
+        height: 100%;
+        margin: 0 auto;
+        background-color: #9fc5e8;
+        outline: 2px solid#82a9ce;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 12px;
+        color: #ffffff;
+    }
+
+  }
+
+
+    /* -- Tablet Devices --*/
+
+    @media (min-width: 481px) and (max-width: 768px) {
+
+        body{
+            background-color: green;
+        }
+
+        .search input{
+            padding: 10px;
+            border-radius: 15px;
+            width: 250px;
+            color: black;
+            background-color: #9fc5e8;
+            outline: 2px solid#82a9ce;
+            font-size: 12px;
+            margin: 0 auto;
+        }
+        
+        #search{
+            position: absolute;
+            margin-left:220px;
+            margin-top: 9px;
+        }
+        
+        .dropdown{
+            width: 20%;
+            padding: 0 2px;
+            height: 100%;
+            margin: 0 auto;
+            background-color: #9fc5e8;
+            outline: 2px solid#82a9ce;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 12px;
+            color: #ffffff;
+        }
+    
+      }
