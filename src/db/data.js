@@ -87,19 +87,14 @@
     },
     {
         "id": 18,
-        "name": "Red Wine",
+        "name": "Tonic Water",
         "type": "Food"
     },
     {
         "id": 19,
         "name": "Blueberry",
         "type": "Food"
-    },
-    {
-        "id": 20,
-        "name": "Tonic Water",
-        "type": "Food"
-    },
+    }
 ]
 
 
