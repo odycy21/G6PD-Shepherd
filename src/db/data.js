@@ -2,7 +2,7 @@
  export const data = [   
     {
         "id": 1,
-        "name": "Soy",
+        "name": "Soy (Taho, Tokwa, Soy Sauce)",
         "type": "Food"
     }, 
     {
@@ -17,7 +17,7 @@
     }, 
     {
         "id": 4,
-        "name": "Legumes",
+        "name": "Legumes (Abitsuelas, Garbanzos, Kadyos, Munggo)",
         "type": "Food"
     }, 
     {
@@ -74,7 +74,32 @@
         "id": 15,
         "name": "Bitter Gourd (Ampalaya)",
         "type": "Food"
-    }
+    },
+    {
+        "id": 16,
+        "name": "Fava Beans (Dingdong nuts, Mr. Bean)",
+        "type": "Food"
+    },
+    {
+        "id": 17,
+        "name": "Red Wine",
+        "type": "Food"
+    },
+    {
+        "id": 18,
+        "name": "Red Wine",
+        "type": "Food"
+    },
+    {
+        "id": 19,
+        "name": "Blueberry",
+        "type": "Food"
+    },
+    {
+        "id": 20,
+        "name": "Tonic Water",
+        "type": "Food"
+    },
 ]
 
 
