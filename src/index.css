@@ -78,6 +78,19 @@ input::placeholder {
 .linkColor:hover{
     color: #658db2;
     font-weight: 600;
+}
+
+
+linkColor2{
+    color: #000000;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+.linkColor2:hover{
+    color:  #000000;
+    font-weight: 800;
 
 }
 
@@ -168,3 +181,47 @@ input::placeholder {
         }
     
       }
+
+      /* Contact form */
+
+form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    line-height: 30px;
+    font-size: 14px;
+  
+  }
+  
+    input {
+      width: 100%;
+      border-radius: 3px;
+      border: 1px solid rgb(220, 220, 220);
+      background: transparent;
+      outline: none;
+      &:focus {
+        border: 1px solid #c4570e;
+      }
+    }
+  
+    textarea {
+      max-width: 100%;
+      min-width: 100%;
+      width: 100%;
+      max-height: 100px;
+      min-height: 100px;
+      padding: 7px;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid rgb(220, 220, 220);
+      background: transparent;
+  
+      &:focus {
+        border: 1px solid #c4570e;
+      }
+    }
+  
+    label {
+      margin-top: 1rem;
+    }
