@@ -57,7 +57,7 @@ const ContactUs = () => {
                   <input type="email" name="user_email" id='email' />
                   <label>Message</label>
                   <textarea name="message" id='message'/>
-                  <input type="submit" value="Send" className="mt-5 w-[20%] h-[32px] border border-b-4 border-white rounded-sm font-normal text-white text-center text-xs hover:bg-[#733f1db3]" />
+                  <input type="submit" value="Submit" className="mt-5 w-[20%] h-[32px] border border-b-4 border-black rounded-md font-normal text-black text-center text-xs hover:bg-[#9fc5e8;]" />
                   </form>
               </div>
       </div>
