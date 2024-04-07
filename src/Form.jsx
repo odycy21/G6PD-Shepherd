@@ -24,7 +24,7 @@ console.log(option)
                     <HiSearch id="search" font-size = {20} color = "black" />
                 </div>
 
-                <div className="justify-center my-10">
+                <div className="justify-center my-10 mx-0px">
                         <select className="dropdown p-2" onChange={(e) => {
                         setOptionItem(e.target.value)
                         }} >

@@ -39,7 +39,7 @@ const ContactUs = () => {
   
     return ( 
 
-      <div className="max-w-[1000px] w-full lg:h-screen md:h-screen mx-auto grid py-[15rem] px-4 bg-transparent text-center">
+      <div className="max-w-[1000px] w-full lg:h-screen md:h-screen mx-auto grid py-[15rem] px-4 bg-transparent text-center" >
            
       <div>
               <h2 className='font-montserrat font-semibold text-[30px] pb-2'>Get In Touch with us!</h2>
