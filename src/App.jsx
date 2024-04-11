@@ -6,7 +6,6 @@ import ContactUs from "./Contact";
 import Footer from "./Footer";
 import {Routes, Route, Outlet } from 'react-router-dom';
 
-
 function App() {
 
   const Layout = () => {
