@@ -39,13 +39,14 @@ const ContactUs = () => {
   
     return ( 
 
-      <div className="max-w-[1000px] lg:h-screen md:h-screen mx-auto grid py-[15rem] px-4 bg-transparent text-center" >
+      <div className="max-w-[1000px] min-h-screen py-20 mx-auto my-auto justify-center items-center">
            
-      <div>
-              <h2 className='font-montserrat font-semibold text-[30px] pb-2'>Get In Touch with us!</h2>
+      <div className="p-20 lg:py-5 px-10 py-10 text-center">
+        
+              <h2 className='font-montserrat font-semibold text-[28px] pb-2'>Get In Touch with us!</h2>
 
               <p className="text-sm leading-7 pb-10">
-                Let us know so we can improve our services.<br />
+              How can we help? We love to here from you.<br />
               </p>
 
            
