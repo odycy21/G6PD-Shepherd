@@ -1,6 +1,8 @@
 
 import React, {useRef} from 'react';
+import { NavLink } from "react-router-dom";
 import emailjs from '@emailjs/browser';
+import bmcBtn from './assets/bmc-button.png';
 
 const ContactUs = () => {
 
@@ -66,7 +68,13 @@ const ContactUs = () => {
       
       <div>
 
+        <h2 className="text-center font-montserrat font-[600] text-[18px] pt-[100px]">Please Support G6PD Shepherd</h2>
+        <p className="text-center font-montserrat font-[500] text-[9px] pt-[5px] pb-[20px]">Anything would help to improve the website.</p>
 
+        <NavLink to={"https://buymeacoffee.com/bryanosald"}>    
+            <img className='h-[52px] mx-auto ' src={bmcBtn} alt="buy me a coffee yellow logo" /> 
+        </NavLink>
+    
       </div>
       
 
