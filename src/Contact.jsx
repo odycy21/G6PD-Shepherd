@@ -3,6 +3,7 @@ import React, {useRef} from 'react';
 import { NavLink } from "react-router-dom";
 import emailjs from '@emailjs/browser';
 import bmcBtn from './assets/bmc-button.png';
+import { FaHandHoldingHeart } from "react-icons/fa";
 
 const ContactUs = () => {
 
@@ -48,7 +49,7 @@ const ContactUs = () => {
               <h2 className='font-montserrat font-semibold text-[28px] pb-2'>Get In Touch with us!</h2>
 
               <p className="text-sm leading-7 pb-10">
-              How can we help? We love to here from you.<br />
+                 Got Questions? we love to here from you. ..<br />
               </p>
 
            
@@ -66,9 +67,15 @@ const ContactUs = () => {
       </div>
 
       
-      <div>
-
-        <h2 className="text-center font-montserrat font-[600] text-[18px] pt-[100px]">Please Support G6PD Shepherd</h2>
+      <div className='pt-[100px]'>
+        <div className="flex justify-center">
+          <span className='mr-2'> 
+            <h2 className="text-center font-montserrat font-[600] text-[18px] ">Please Support G6PD Shepherd </h2>
+          </span> 
+          
+            <FaHandHoldingHeart size={20} />
+        </div>
+       
         <p className="text-center font-montserrat font-[500] text-[9px] pt-[5px] pb-[20px]">Anything would help to improve the website.</p>
 
         <NavLink to={"https://buymeacoffee.com/bryanosald"}>    
