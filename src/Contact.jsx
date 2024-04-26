@@ -46,7 +46,7 @@ const ContactUs = () => {
            
       <div className="p-20 lg:py-5 px-10 py-10 text-center">
         
-              <h2 className='font-montserrat font-semibold text-[28px] sm:text-[20px] md:text-[25px] lg:text-[28px] pb-2'>Get In Touch with us!</h2>
+              <h2 className='font-montserrat font-semibold text-[28px] sm:text-[15px] md:text-[25px] lg:text-[28px] pb-2'>Get In Touch with us!</h2>
 
               <p className="text-sm leading-7 pb-10">
                  Got Questions? we love to here from you. ..<br />
