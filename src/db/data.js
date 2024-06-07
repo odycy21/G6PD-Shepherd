@@ -43,12 +43,12 @@
     {
         "id": 9,
         "name": "Aspirin (acetylsalicylic acid)",
-        "type": "Medicine"
+        "type": "Drug"
     }, 
     {
         "id": 10,
         "name": "Aczone (dapsone)",
-        "type": "Drug"
+        "type": "Medicine"
     },
     {
         "id": 11,
